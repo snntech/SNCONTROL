@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Login para SNCONTROL</title>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <div class="login-box">
+      <img src="img/LOGO.jpg" class="avatar" alt="Avatar Image">
+      <h1>Acceso</h1>
+      <form action="auth" method="POST">
+        <!-- USERNAME INPUT -->
+        <label for="username">Usuario</label>
+        <input type="text" name="username" placeholder="Escriba el usuario">
+        <!-- PASSWORD INPUT -->
+        <label for="password">Contraseña</label>
+        <input type="password" name="password" placeholder="Escriba la contraseña">
+        <input type="submit" value="Acceder">
+        <a href="#">Olvidé mi contraseña</a><br>
+        <a href="#">No dispongo de cuenta</a>
+      </form>
+    </div>
+  </body>
+</html>
